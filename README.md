@@ -1,11 +1,89 @@
-Este tutorial orientará você na criação de um aplicativo de blog básico chamado Flaskr. Os usuários poderão se registrar, fazer login, criar postagens e editar ou excluir suas próprias postagens. Você poderá empacotar e instalar o aplicativo em outros computadores.
+# Tutorial Flaskk
 
-captura de tela da página de índice
+Este Projeto acadêmico visa a criação de um aplicativo de blog básico chamado Flaskr. Os usuários poderão se registrar, fazer login, criar postagens e editar ou excluir suas próprias postagens.
+
+## captura de tela da página de índice
+
+<div align="center">
+    <img src="Img/flaskr_index.jpg"></br>
+</div>
+
 Presume-se que você já esteja familiarizado com Python. O tutorial oficial na documentação do Python é uma ótima maneira de aprender ou revisar primeiro.
 
-Embora tenha sido projetado para fornecer um bom ponto de partida, o tutorial não cobre todos os recursos do Flask. Confira o início rápido para uma visão geral do que o Flask pode fazer e, em seguida, mergulhe na documentação para saber mais. O tutorial usa apenas o que é fornecido pelo Flask e Python. Em outro projeto, você pode decidir usar extensões ou outras bibliotecas para simplificar algumas tarefas.
 
-captura de tela da página de login
-O frasco é flexível. Não exige que você use nenhum projeto ou layout de código específico. No entanto, ao começar, é útil usar uma abordagem mais estruturada. Isso significa que o tutorial exigirá um pouco de padronização inicial, mas é feito para evitar muitas armadilhas comuns que novos desenvolvedores encontram e cria um projeto que é fácil de expandir. Depois de se sentir mais confortável com o Flask, você poderá sair dessa estrutura e aproveitar ao máximo a flexibilidade do Flask.
+Este Projeto segue o que consta no tutorial disponível no site do prório Flask, porém planeja-se um upgrade do projeto para o futuro, com uma estilizaçao de paginas mais elaborada.
 
-captura de tela da página de edição
+.. _tutorial: https://flask.palletsprojects.com/tutorial/
+
+## captura de tela da página de login
+
+
+<div align="center">
+    <img src="Img/flaskr_login.jpg"></br>
+</div>
+
+
+## captura de tela da página de edição
+
+<div align="center">
+    <img src="Img/flaskr_edit.jpg"></br>
+</div>
+
+-------
+# Instalação
+
+**Certifique-se de usar a mesma versão do código que a versão dos documentos que você está lendo.** Você provavelmente deseja a versão mais recente com tags, mas a versão padrão do Git é o branch principal. ::
+
+    # clone the repository
+    $ git clone https://github.com/pallets/flask
+    $ cd flask
+    # checkout the correct version
+    $ git tag  # shows the tagged versions
+    $ git checkout latest-tag-found-above
+    $ cd examples/tutorial
+
+Crie uma virtualenv e activate ::
+
+    $ python3 -m venv .venv
+    $ . .venv/bin/activate
+
+Ou no Windows cmd::
+
+    $ py -3 -m venv .venv
+    $ .venv\Scripts\activate.bat
+
+Instale o Flaskr::
+
+    $ pip install -e .
+
+Ou se você estiver usando o branch principal, instale o Flask a partir do código-fonte antes de instalar o Flaskr ::
+
+    $ pip install -e ../..
+    $ pip install -e .
+
+
+Execute
+---
+
+.. code-block:: text
+
+    $ flask --app flaskr init-db
+    $ flask --app flaskr run --debug
+
+Open http://127.0.0.1:5000 in a browser.
+
+
+Teste ::
+----
+
+
+    $ pip install '.[test]'
+    $ pytest
+
+Execute com coverage report ::
+
+    $ coverage run -m pytest
+    $ coverage report
+    $ coverage html  # open htmlcov/index.html in a browser
+
+
