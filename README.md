@@ -2,17 +2,19 @@
 
 Este Projeto acadêmico visa a criação de um aplicativo de blog básico chamado Flaskr. Os usuários poderão se registrar, fazer login, criar postagens e editar ou excluir suas próprias postagens.
 
-## captura de tela da página de índice
+## captura de tela da página inicial
 
 <div align="center">
     <img src="Img/flaskr_index.jpg"></br>
 </div>
 
-Presume-se que você já esteja familiarizado com Python. O tutorial oficial na documentação do Python é uma ótima maneira de aprender ou revisar primeiro.
+<br/>
+Pensado como uma ferramenta para adquirir experiência com um framework de desenvolvimento web utilizando python, a conclusão deste projeto possibilita uma gama ilimitada de possibilidades para futuros projetos facilmente escalaveis para cloud computing.
 
-
+<br/>
 Este Projeto segue o que consta no tutorial disponível no site do prório Flask, porém planeja-se um upgrade do projeto para o futuro, com uma estilizaçao de paginas mais elaborada.
 
+<br/>
 .. _tutorial: https://flask.palletsprojects.com/tutorial/
 
 ## captura de tela da página de login
@@ -22,6 +24,9 @@ Este Projeto segue o que consta no tutorial disponível no site do prório Flask
     <img src="Img/flaskr_login.jpg"></br>
 </div>
 
+<br/>
+A primeira etapa do projeto é concluir o tutorial na integra e estruturar o repositório para distribuição e teste da aplicação mínima, concluído esta etapa inicia-se a estilização do projeto de forma mais autonoma explorando novas possibilidades.
+
 
 ## captura de tela da página de edição
 
@@ -29,61 +34,33 @@ Este Projeto segue o que consta no tutorial disponível no site do prório Flask
     <img src="Img/flaskr_edit.jpg"></br>
 </div>
 
--------
-# Instalação
+## 🛠️ Construído com
 
-**Certifique-se de usar a mesma versão do código que a versão dos documentos que você está lendo.** Você provavelmente deseja a versão mais recente com tags, mas a versão padrão do Git é o branch principal. ::
+* [Python](https://www.python.org/) - A linguagem que possibilitou tudo
 
-    # clone the repository
-    $ git clone https://github.com/pallets/flask
-    $ cd flask
-    # checkout the correct version
-    $ git tag  # shows the tagged versions
-    $ git checkout latest-tag-found-above
-    $ cd examples/tutorial
+* [Flask](https://flask.palletsprojects.com/en/3.0.x/) - O framework que irá pavimentar o caminho
 
-Crie uma virtualenv e activate ::
+* [SQLite](https://www.sqlite.org/) - O Banco de dados mais simples para começar
 
-    $ python3 -m venv .venv
-    $ . .venv/bin/activate
+## ✒️ Autor
 
-Ou no Windows cmd::
+Idealizado e produzido por:
 
-    $ py -3 -m venv .venv
-    $ .venv\Scripts\activate.bat
+[Jhone Antonio](https://github.com/EbonyWizard4)
 
-Instale o Flaskr::
+* **Problemática** - *Identificação e Processamento*
+* **Pesquisa** - *Extruturação*
+* **Documentação** - *Elaboração e Viabilização*
+* **Desenvolvimento** - *Criação e revisão*
+* **Manutenção** - *Ampliação e escalabilidade*
 
-    $ pip install -e .
+## 🎁 Expressões de gratidão
 
-Ou se você estiver usando o branch principal, instale o Flask a partir do código-fonte antes de instalar o Flaskr ::
-
-    $ pip install -e ../..
-    $ pip install -e .
+* Conte a outras pessoas sobre este projeto 📢;
+* Convide alguém da equipe para uma cerveja 🍺;
+* Um agradecimento publico 🫂;
+* etc.
 
 
-Execute
 ---
-
-.. code-block:: text
-
-    $ flask --app flaskr init-db
-    $ flask --app flaskr run --debug
-
-Open http://127.0.0.1:5000 in a browser.
-
-
-Teste ::
-----
-
-
-    $ pip install '.[test]'
-    $ pytest
-
-Execute com coverage report ::
-
-    $ coverage run -m pytest
-    $ coverage report
-    $ coverage html  # open htmlcov/index.html in a browser
-
-
+Editado por [Jhone Antonio](www.linkedin.com/in/antoniojhone)
