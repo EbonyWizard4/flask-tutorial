@@ -42,6 +42,8 @@ A primeira etapa do projeto é concluir o tutorial na integra e estruturar o rep
 
 * [SQLite](https://www.sqlite.org/) - O Banco de dados mais simples para começar
 
+* [GitFlow](https://pypi.org/project/gitflow/) - A melhor forma de organizar o trabalho
+
 ## ✒️ Autor
 
 Idealizado e produzido por:
