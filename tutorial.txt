@@ -1,0 +1,11 @@
+ok  Layout do Projeto
+ok  Configuração do aplicativo
+ok  Definir e acessar o banco de dados
+    Plantas e visualizações
+    Modelos
+    Arquivos estáticos
+    Projeto do blog
+    Torne o projeto instalável
+    Cobertura de teste
+    Implantar na produção
+    Continue desenvolvendo!
