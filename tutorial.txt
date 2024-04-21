@@ -1,7 +1,7 @@
 ok  Layout do Projeto
 ok  Configuração do aplicativo
 ok  Definir e acessar o banco de dados
-    Plantas e visualizações
+ok  Plantas e visualizações
     Modelos
     Arquivos estáticos
     Projeto do blog
