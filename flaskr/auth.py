@@ -16,7 +16,7 @@ def register():
     # Para metodo POST
     if request.method == 'POST':
         # Variaveis
-        username = request.form['usename']
+        username = request.form['username']
         password = request.form['password']
         db = get_db()
         error = None
@@ -97,7 +97,7 @@ def load_logged_in_user():
         ).fetchone()
 
 # Logica de logout
-@bp.rout('/logout')
+@bp.route('/logout')
 def logout():
     session.clear()
     return redirect(url_for('index'))
