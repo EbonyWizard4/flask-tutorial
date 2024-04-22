@@ -2,8 +2,8 @@ ok  Layout do Projeto
 ok  Configuração do aplicativo
 ok  Definir e acessar o banco de dados
 ok  Plantas e visualizações
-    Modelos
-    Arquivos estáticos
+ok  Modelos
+ok  Arquivos estáticos
     Projeto do blog
     Torne o projeto instalável
     Cobertura de teste
