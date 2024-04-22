@@ -3,7 +3,7 @@ ok  Configuração do aplicativo
 ok  Definir e acessar o banco de dados
 ok  Plantas e visualizações
 ok  Modelos
-    Arquivos estáticos
+ok  Arquivos estáticos
     Projeto do blog
     Torne o projeto instalável
     Cobertura de teste
