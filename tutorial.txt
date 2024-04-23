@@ -4,7 +4,7 @@ ok  Definir e acessar o banco de dados
 ok  Plantas e visualizações
 ok  Modelos
 ok  Arquivos estáticos
-    Projeto do blog
+ok  Projeto do blog
     Torne o projeto instalável
     Cobertura de teste
     Implantar na produção

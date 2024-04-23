@@ -15,12 +15,10 @@
 </nav>
 <section class="content">
     <header>
-        {% block heaer %}{% endblock %}
+        {% block header %}{% endblock %}
     </header>
-    {% for mesage in get_flashed_messages() %}
-        <div class="flash">
-            {{ message }}
-        </div>
+    {% for message in get_flashed_messages() %}
+    <div class="flash">{{ message }}</div>
     {% endfor %}
     {% block content %}{% endblock %}
 </section>
