@@ -33,7 +33,7 @@ def register():
                 # salva dados no db
                 db.execute(
                     "INSERT INTO user (username, password) VALUES (?, ?)", 
-                    (username,generate_password_hash(password)),
+                    (username, generate_password_hash(password)),
                 )
                 db.commit()
             except db.IntegrityError:
@@ -65,18 +65,19 @@ def login():
         # validação dos dados de login
         if user is None:
             error = 'Nome de usuário invalido'
-        elif not check_password_hash(user['passwod'], password):
+        elif not check_password_hash(user['password'], password):
             error = 'Senha invalida'
         
         # Não havendo erro nos campos
         if error is None:
+            print('\nAqui\n',session)
             session.clear()
             session['user_id'] = user['id']
             return redirect(url_for('index'))
         
         # exibe o erro caso ocorra
+        print('\nerro: ', error, '\n')
         flash(error)
-    
     # renderiza a pagina encontrada em auth/login
     return render_template('auth/login.html')
 
@@ -92,8 +93,8 @@ def load_logged_in_user():
     # busca dados do usuario no db
     else:
         g.user = get_db().execute(
-            'SELECT * FROM user WHERE ID = ?',
-            (user_id)
+            'SELECT * FROM user WHERE id = ?',
+            (user_id,)
         ).fetchone()
 
 # Logica de logout
