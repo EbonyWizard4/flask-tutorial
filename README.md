@@ -1,8 +1,11 @@
+![Apresentação](img/Midia/Apresentação do blog.gif)
+
+
 # Tutorial Flaskk
 
 Este Projeto acadêmico visa a criação de um aplicativo de blog básico chamado Flaskr. Os usuários poderão se registrar, fazer login, criar postagens e editar ou excluir suas próprias postagens.
 
-<video controls src="Midia/Apresentação do blog (2).mp4" title="Title"></video>
+
 
 ## captura de tela da página inicial
 
