@@ -1,4 +1,4 @@
-![Apresentação](img/Midia/Apresentação do blog.gif)
+![Apresentação](Midia/Apresentação do blog.gif)
 
 
 # Tutorial Flaskk
