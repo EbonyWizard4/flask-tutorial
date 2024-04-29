@@ -1,5 +1,4 @@
-![Apresentação](img/Midia/Apresentação do blog.gif)
-
+![Apresentação](Midia/Apresentação_do_blog.gif)
 
 # Tutorial Flaskk
 
@@ -7,11 +6,9 @@ Este Projeto acadêmico visa a criação de um aplicativo de blog básico chamad
 
 
 
-## captura de tela da página inicial
+## captura de tela do blg
 
-<div align="center">
-    <img src="Img/flaskr_index.jpg"></br>
-</div>
+![Blog](Midia/Apresentação_do_blog(1).gif)
 
 <br/>
 Pensado como uma ferramenta para adquirir experiência com um framework de desenvolvimento web utilizando python, a conclusão deste projeto possibilita uma gama ilimitada de possibilidades para futuros projetos facilmente escalaveis para cloud computing.
@@ -22,22 +19,9 @@ Este Projeto segue o que consta no tutorial disponível no site do prório Flask
 <br/>
 .. _tutorial: https://flask.palletsprojects.com/tutorial/
 
-## captura de tela da página de login
-
-
-<div align="center">
-    <img src="Img/flaskr_login.jpg"></br>
-</div>
 
 <br/>
 A primeira etapa do projeto é concluir o tutorial na integra e estruturar o repositório para distribuição e teste da aplicação mínima, concluído esta etapa inicia-se a estilização do projeto de forma mais autonoma explorando novas possibilidades.
-
-
-## captura de tela da página de edição
-
-<div align="center">
-    <img src="Img/flaskr_edit.jpg"></br>
-</div>
 
 ## 🛠️ Construído com
 
