@@ -19,7 +19,6 @@ Este Projeto segue o que consta no tutorial disponível no site do prório Flask
 <br/>
 
 * [**Tutorial**](https://flask.palletsprojects.com/tutorial/) - Utilizado para elaborar o projeto.
- 
 
 <br/>
 A primeira etapa do projeto é concluir o tutorial na integra e estruturar o repositório para distribuição e teste da aplicação mínima, concluído esta etapa inicia-se a estilização do projeto de forma mais autonoma explorando novas possibilidades.
