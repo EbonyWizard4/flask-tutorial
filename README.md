@@ -23,7 +23,6 @@ Este Projeto segue o que consta no tutorial disponível no site do prório Flask
 <br/>
 A primeira etapa do projeto é concluir o tutorial na integra e estruturar o repositório para distribuição e teste da aplicação mínima, concluído esta etapa inicia-se a estilização do projeto de forma mais autonoma explorando novas possibilidades.
 
-
 ## 🛠️ Construído com
 
 * [Python](https://www.python.org/) - A linguagem que possibilitou tudo
