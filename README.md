@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ![Apresentação](Midia/Apresentação_do_blog.gif)
+=======
+![Apresentação](Midia/Apresentação do blog.gif)
+>>>>>>> 94c4ed6395b1891e5d2af8b259455fa5fc98f7e7
 
 
 # Tutorial Flaskk
