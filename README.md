@@ -16,12 +16,57 @@ Pensado como uma ferramenta para adquirir experiência com um framework de desen
 <br/>
 Este Projeto segue o que consta no tutorial disponível no site do prório Flask, porém planeja-se um upgrade do projeto para o futuro, com uma estilizaçao de paginas mais elaborada.
 
-<br/>
-
+###
 * [**Tutorial**](https://flask.palletsprojects.com/tutorial/) - Utilizado para elaborar o projeto.
 
-<br/>
-A primeira etapa do projeto é concluir o tutorial na integra e estruturar o repositório para distribuição e teste da aplicação mínima, concluído esta etapa inicia-se a estilização do projeto de forma mais autonoma explorando novas possibilidades.
+## Etapas do projeto
+* A primeira etapa do projeto é concluir o blog com suas funcionalidades.
+* A segunda etapa consiste em estruturar o repositório. 
+* A terceira etapa consiste em estruturar o projeto para distribuição e teste da aplicação mínima.
+* Concluído a terceira etapa inicia-se a estilização do projeto de forma mais autonoma explorando novas possibilidades.
+
+<div style="display: flex; margin:10px" align="center">
+    <div style="width: 100px; 
+        height: 100px;    
+        border-bottom: 4px solid #377ba8; 
+        border-radius: 50%;
+        background-color:black;
+        display: flex;
+        justify-content: center;
+        align-items: center;">
+            <p>1° Etapa</p>
+        </div>
+    <div style="width: 100px; 
+        height: 100px;    
+        border-top: 4px solid #377ba8; 
+        border-radius: 50%;
+        background-color:black;
+        display: flex;
+        justify-content: center;
+        align-items: center;">
+            <p>2° Etapa</p>
+        </div>
+            <div style="width: 100px; 
+        height: 100px;    
+        border-bottom: 4px solid #377ba8; 
+        border-radius: 50%;
+        background-color:black;
+        display: flex;
+        justify-content: center;
+        align-items: center;">
+            <p>3° Etapa</p>
+        </div>
+    <div style="width: 100px; 
+        height: 100px;    
+        border-top: 4px solid #377ba8; 
+        border-radius: 50%;
+        background-color:black;
+        display: flex;
+        justify-content: center;
+        align-items: center;">
+            <p>4° Etapa</p>
+        </div>    
+</div>
 
 ## 🛠️ Construído com
 
