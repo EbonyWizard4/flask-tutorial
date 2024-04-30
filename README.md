@@ -16,13 +16,16 @@ Pensado como uma ferramenta para adquirir experiência com um framework de desen
 <br/>
 Este Projeto segue o que consta no tutorial disponível no site do prório Flask, porém planeja-se um upgrade do projeto para o futuro, com uma estilizaçao de paginas mais elaborada.
 
-<br/>
-
+###
 * [**Tutorial**](https://flask.palletsprojects.com/tutorial/) - Utilizado para elaborar o projeto.
- 
 
-<br/>
-A primeira etapa do projeto é concluir o tutorial na integra e estruturar o repositório para distribuição e teste da aplicação mínima, concluído esta etapa inicia-se a estilização do projeto de forma mais autonoma explorando novas possibilidades.
+## Etapas do projeto
+* A primeira etapa do projeto é concluir o blog com suas funcionalidades seguindo o tutorial.
+* A segunda etapa consiste em estruturar o projeto e o repositório para distribuição e teste do projeto. 
+* A terceira etapa consiste em implementar o projeto em um serviço de hospedagem web tornando-o acessível.
+* Concluído a terceira etapa inicia-se a estilização do projeto de forma mais autonoma com foco em responsividade e explorando novas possibilidades.
+
+![Infográfico](Midia/Infográfico.png)
 
 ## 🛠️ Construído com
 
@@ -36,17 +39,15 @@ A primeira etapa do projeto é concluir o tutorial na integra e estruturar o rep
 
 ## ✒️ Autor
 
-Idealizado e produzido por:
+*Idealizado e produzido por:* [**Jhone Antonio**](https://github.com/EbonyWizard4)
 
-[Jhone Antonio](https://github.com/EbonyWizard4)
-
-* **Problemática** - *Identificação e Processamento*
-* **Pesquisa** - *Extruturação*
-* **Documentação** - *Elaboração e Viabilização*
-* **Desenvolvimento** - *Criação e revisão*
+* **Formação** - *Engenheiro de computação [UNIVESP]*
+* **Habilidades** - *Programação e automação*
+* **Soft Skills** - *Empatia, Determinação, Garra*
+* **Interesses** - *Tecnologias para web e mercado financeiro*
 * **Manutenção** - *Ampliação e escalabilidade*
 
-## 🎁 Expressões de gratidão
+## 🎁 Expresse seu apoio
 
 * Conte a outras pessoas sobre este projeto 📢;
 * Convide alguém da equipe para uma cerveja 🍺;
