@@ -25,7 +25,7 @@ Este Projeto segue o que consta no tutorial disponível no site do prório Flask
 * A terceira etapa consiste em implementar o projeto em um serviço de hospedagem web tornando-o acessível.
 * Concluído a terceira etapa inicia-se a estilização do projeto de forma mais autonoma com foco em responsividade e explorando novas possibilidades.
 
-![Infográfico](Midia/Infográfico.png)
+![Infográfico](Midia/Img/Infográfico.png)
 
 ## 🛠️ Construído com
 
