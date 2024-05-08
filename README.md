@@ -6,7 +6,7 @@ Este Projeto acadêmico visa a criação de um aplicativo de blog básico chamad
 
 
 
-## captura de tela do blg
+## Captura de tela do blg   
 
 ![Blog](Midia/Apresentação_do_blog(1).gif)
 
