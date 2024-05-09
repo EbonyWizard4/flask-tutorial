@@ -5,8 +5,7 @@
 Este Projeto acadêmico visa a criação de um aplicativo de blog básico chamado Flaskr. Os usuários poderão se registrar, fazer login, criar postagens e editar ou excluir suas próprias postagens.
 
 
-
-## Captura de tela do blg   
+## 📷 Captura de tela do blg 
 
 ![Blog](Midia/Apresentação_do_blog(1).gif)
 
@@ -17,9 +16,10 @@ Pensado como uma ferramenta para adquirir experiência com um framework de desen
 Este Projeto segue o que consta no tutorial disponível no site do prório Flask, porém planeja-se um upgrade do projeto para o futuro, com uma estilizaçao de paginas mais elaborada.
 
 ###
+
 * [**Tutorial**](https://flask.palletsprojects.com/tutorial/) - Utilizado para elaborar o projeto.
 
-## Etapas do projeto:
+## 🧩 Etapas do projeto:
 * A primeira etapa do projeto é concluir o blog com suas funcionalidades seguindo o tutorial.
 * A segunda etapa consiste em estruturar o projeto e o repositório para distribuição e teste do projeto. 
 * A terceira etapa consiste em implementar o projeto em um serviço de hospedagem web tornando-o acessível.
@@ -28,9 +28,9 @@ Este Projeto segue o que consta no tutorial disponível no site do prório Flask
 ![Infográfico](Midia/Img/Infográfico.png)
 
 ###
-## Como testar essa aplicação:
+## 🕹️ Como testar essa aplicação:
 
-### Obs.: Assumimos que o Python ja esteja devidamente instalado no computador onde será realizado o teste!
+#### Obs.: Assumimos que o Python ja esteja devidamente instalado no computador onde será realizado o teste!
 
 ### 1 - Crie um diretório para o projeto e acesse-o:
 
