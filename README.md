@@ -42,13 +42,13 @@ Segindo as [**instruções de instalação**](https://flask.palletsprojects.com/
 
     $ git clone https://github.com/EbonyWizard4/flask-tutorial.git
 
-### 3 - Instale as dependências necessárias:
-
-    $ pip install requirements.txt
-
-
-### 4 - Acesse a pasta do projeto:
+### 3 - Acesse a pasta do projeto:
+    
     $ cd ./flask-tutorial:
+
+### 4 - Instale as dependências necessárias:
+
+    $ pip install -r requirements.txt
 
 ### 5 - Inicialize o banco de dados:
 
@@ -74,7 +74,7 @@ Você verá uma saída semelhante a esta:
 
 ### 8 - Acesse o aplicativo:
 
-Visite http://127.0.0.1:5000/hello em um navegador e você deverá ver o aplicativo em execução.
+Visite http://127.0.0.1:5000/ em um navegador e você deverá ver o aplicativo em execução.
 
 ###
 ## 🛠️ Construído com
