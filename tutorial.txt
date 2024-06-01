@@ -5,7 +5,7 @@ ok  Plantas e visualizações
 ok  Modelos
 ok  Arquivos estáticos
 ok  Projeto do blog
-    Torne o projeto instalável
-    Cobertura de teste
+ok  Torne o projeto instalável
+    Cobertura de teste (test_blog)
     Implantar na produção
     Continue desenvolvendo!
