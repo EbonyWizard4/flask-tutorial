@@ -23,9 +23,9 @@ def register():
 
         # Validação de campos
         if not username:
-            error = 'Preencha o campo de nome de usuário'
+            error = 'Username is required.'
         elif not password:
-            error = 'Preencha o campo de senha'
+            error = 'Password is required.'
         
         # Não havendo erro nos campos
         if error is None:
@@ -37,7 +37,7 @@ def register():
                 )
                 db.commit()
             except db.IntegrityError:
-                error = f"Usuário {username} ja cadastrado."
+                error = f"User {username} is already registered."
             else:
                 # redireciona para tela de login
                 return redirect(url_for("auth.login"))
@@ -64,9 +64,9 @@ def login():
 
         # validação dos dados de login
         if user is None:
-            error = 'Nome de usuário invalido'
+            error = 'Incorrect username.'
         elif not check_password_hash(user['password'], password):
-            error = 'Senha invalida'
+            error = 'Incorrect password.'
         
         # Não havendo erro nos campos
         if error is None:
