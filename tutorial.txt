@@ -5,7 +5,8 @@ ok  Plantas e visualizações
 ok  Modelos
 ok  Arquivos estáticos
 ok  Projeto do blog
-    Torne o projeto instalável
-    Cobertura de teste
+ok  Torne o projeto instalável
+ok  Cobertura de teste (test_blog)
+    Atualizar README.md (Testes)
     Implantar na produção
     Continue desenvolvendo!
