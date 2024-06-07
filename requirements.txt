@@ -1,7 +1,13 @@
 blinker==1.7.0
 click==8.1.7
+coverage==7.5.1
 Flask==3.0.2
+-e git+https://github.com/EbonyWizard4/flask-tutorial.git@8f84d6182b0878307b1f7db3f12e6cbe3e8248c0#egg=flaskr
+iniconfig==2.0.0
 itsdangerous==2.1.2
 Jinja2==3.1.3
 MarkupSafe==2.1.5
+packaging==24.0
+pluggy==1.5.0
+pytest==8.2.0
 Werkzeug==3.0.1
