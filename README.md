@@ -22,7 +22,7 @@ Este Projeto segue o que consta no tutorial disponível no site do prório Flask
 ## 🧩 Etapas do projeto:
 * A primeira etapa do projeto é concluir o blog com suas funcionalidades seguindo o tutorial.
 * A segunda etapa consiste em estruturar o projeto e o repositório para distribuição e teste do projeto. 
-* A terceira etapa consiste em implementar o projeto em um serviço de hospedagem web tornando-o acessível.
+* A terceira etapa consiste em preparar o projeto para implementação em um serviço de hospedagem web tornando-o acessível.
 * Concluído a terceira etapa inicia-se a estilização do projeto de forma mais autonoma com foco em responsividade e explorando novas possibilidades.
 
 ![Infográfico](Midia/Img/Infográfico.png)
@@ -76,6 +76,39 @@ Você verá uma saída semelhante a esta:
 
 Visite http://127.0.0.1:5000/ em um navegador e você deverá ver o aplicativo em execução.
 
+### 9 - Teste a Aplicação:
+
+Você usará [pytest](https://pytest.readthedocs.io/) e [coverage](https://coverage.readthedocs.io/) para testar e medir seu código. Instale os dois:
+
+    * pip install pytest coverage
+
+Para executar os testes, use ocomando pytest. Ele encontrará e executará todas as funções de teste:
+
+    * pytest
+
+Você deve receber uma resposta semelhante a esta:
+
+![Imagem de execução de teste](<Midia/Img/Captura de tela pytest.png>)
+
+Se algum teste falhar, o pytest mostrará o erro que foi gerado. 
+
+Você pode executar o seguinte comando para obter uma lista de cada função de teste em vez de pontos.
+
+    * pytest -v
+
+Para medir a cobertura de código dos seus testes, use o comando coverage para executar pytest em vez de executá-lo diretamente.
+
+    * coverage run -m pytest
+
+Ou utilize o coverage para visualizar um relatório simples no terminal
+
+    * coverage report
+
+Você deve obter uma resposta semelhante a esta:
+
+![Imagem do relatório de cobertura de teste ](<Midia/Img/Captura de tela cobertura pytest.png>)
+
+
 ###
 ## 🛠️ Construído com
 
@@ -104,8 +137,9 @@ As tecnologias utilizadas neste projeto:
 * Conte a outras pessoas sobre este projeto 📢;
 * Convide alguém da equipe para uma cerveja 🍺;
 * Um agradecimento publico 🫂;
-* etc.
+* Um insentivo financeiro .
 
+![QR CODE para pix](<Midia/Img/QRCode Pix.png>)
 
 ---
 Editado por [Jhone Antonio](www.linkedin.com/in/antoniojhone)

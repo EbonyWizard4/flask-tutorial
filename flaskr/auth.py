@@ -1,3 +1,10 @@
+"""Modulo de autenticação
+
+Returns:
+    Função: Responsavel por cadastrar e autenticar usuários válidos para 
+    acessar o sistema
+"""
+
 import functools
 
 from flask import (
